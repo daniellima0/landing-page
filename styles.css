@@ -1,0 +1,214 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    height: 60px;
+}
+
+header > span {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-right: 200px;
+}
+
+header > nav li {
+    list-style-type: none;
+}
+header > nav li a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* First section styles */
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    height: 450px;
+}
+
+.presentation > .left-part {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 250px;
+}
+
+.presentation > .left-part > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.presentation > .left-part > p {
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.presentation > .left-part > button {
+    border: none;
+}
+
+.presentation > .image-placeholder {
+    background-color: #e5e7eb;
+    width: 450px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+/* Second section styles */
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+
+.information > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-top: 40px;
+}
+
+.information > .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.information > .cards > .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 200px;
+}
+
+.information > .cards > .card > .square {
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+}
+
+.information > .cards > .card > p {
+    width: 100%;
+    color: #1f2937;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Third section styles */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 450px;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    width: 800px;
+    color: #1f2937;
+}
+
+.quote > span {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1f2937;
+    margin-left: 400px;
+}
+
+/* Fourth section styles */
+.sign-up {
+    display: flex;
+    background-color: white;
+    height: 450px;
+    align-items: center;
+}
+
+.sign-up > .sign-up-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.sign-up > .sign-up-container > .text {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.sign-up > .sign-up-container > .text > span {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-up > .sign-up-container > .text > p {
+    color: #e5e7eb;
+}
+
+.sign-up > .sign-up-container > button {
+    border: 2px solid white;
+    margin-right: 120px;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 100px;
+}
